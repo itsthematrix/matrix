@@ -27,7 +27,7 @@ echo 'not compatible with Matrix 1.0.
 echo "To download matrix 2.0, use"
 echo 'sudo apt-get install cmatrix'
 
-# Delete this script
-rm -- "$0"
 
 '
+# Delete this script
+rm -- "$0"
